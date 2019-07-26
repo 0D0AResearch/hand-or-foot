@@ -1,6 +1,7 @@
 from starlette.applications import Starlette
 from starlette.responses import JSONResponse
 import uvicorn
+import os
 
 app = Starlette(debug=True)
 
@@ -10,5 +11,4 @@ async def homepage(request):
     return JSONResponse({'hello':'world'})
 
 if __name__ == '_main__':
-    #uvicorn.run(app, host='0.0.0.0', port=8000)
-    uvicorn.run(app)
+    uvicorn.run(app, host='0.0.0.0', port=int(os.environ.get('PORT')))
