@@ -4,7 +4,7 @@ This project contains a proof of concept web application that takes a FastAI mac
 
 All commits to this project are automatically built and deployed on Heroku at http://hand-or-foot.herokuapp.com/
 
-This project owes it's inspiration mostly from:
+This project owes its inspiration mostly from:
 * https://github.com/simonw/cougar-or-not (deployed on ZeitNow as a docker image)
 * https://medium.com/@lankinen/fastai-model-to-production-this-is-how-you-make-web-app-that-use-your-model-57d8999450cf (deployed on AWS)
 
